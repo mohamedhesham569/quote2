@@ -1,0 +1,49 @@
+#root,html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/wallhaven-72xgq3.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.card{
+  background-color: whitesmoke;
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 4px 5px 13px;
+  margin: auto;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+  text-transform: capitalize;
+  width: 50%;
+  height:fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: initial;
+  cursor: pointer;
+  border-color:rgba(165, 42, 42, 0.571);
+}
+.quote{
+  margin: 10px;
+  line-height: 28px;
+  padding: 10px;
+}
+@media only screen and (max-width:600px) {
+  .card{
+    width: 80%;
+  }
+};
