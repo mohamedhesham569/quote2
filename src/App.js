@@ -14,9 +14,9 @@ export default function App() {
     const data = await response.json();
     setquotes(data[0].quote);
   }
-  // useEffect(()=>{
-  //   call('');
-  // },[])
+  useEffect(()=>{
+    call('');
+  },[])
   return (
     <div className='card' >
       {/* <input
