@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quote2/static/css/main.5d450530.css",
-    "main.js": "/quote2/static/js/main.da8b4ada.js",
+    "main.js": "/quote2/static/js/main.7dfa60ec.js",
     "static/media/wallhaven-72xgq3.png": "/quote2/static/media/wallhaven-72xgq3.11f3f75896bbfa31ecff.png",
     "index.html": "/quote2/index.html",
     "main.5d450530.css.map": "/quote2/static/css/main.5d450530.css.map",
-    "main.da8b4ada.js.map": "/quote2/static/js/main.da8b4ada.js.map"
+    "main.7dfa60ec.js.map": "/quote2/static/js/main.7dfa60ec.js.map"
   },
   "entrypoints": [
     "static/css/main.5d450530.css",
-    "static/js/main.da8b4ada.js"
+    "static/js/main.7dfa60ec.js"
   ]
 }
